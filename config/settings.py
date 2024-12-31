@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-# AUTH_USER_MODEL = ''
+AUTH_USER_MODEL = 'account.CustomUser'
 
 
 # Application definition
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'apps.contact',
     'apps.category',
     'apps.article',
+    'apps.account',
 ]
 
 MIDDLEWARE = [

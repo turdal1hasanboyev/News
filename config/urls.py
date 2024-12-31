@@ -32,6 +32,7 @@ urlpatterns = [
     path('', include('apps.contact.urls')),
     path('', include('apps.article.urls')),
     path('', include('apps.common.urls')),
+    path('', include('apps.account.urls')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
